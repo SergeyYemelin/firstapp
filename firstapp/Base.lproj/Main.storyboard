@@ -76,7 +76,7 @@
                                     <color key="baseBackgroundColor" systemColor="systemOrangeColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="delit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XnK-Rw-xT1"/>
+                                    <action selector="divide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CUd-WY-pk4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CB6-4D-vwk">
@@ -90,7 +90,7 @@
                                     <color key="baseBackgroundColor" systemColor="systemOrangeColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="umnojit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1jx-r2-D49"/>
+                                    <action selector="multiply:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GIa-Sl-j4l"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -105,7 +105,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="35.877862595419849" y="234.50704225352115"/>
+            <point key="canvasLocation" x="210" y="162"/>
         </scene>
     </scenes>
     <resources>
@@ -113,13 +113,13 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemIndigoColor">
-            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPurpleColor">
-            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
