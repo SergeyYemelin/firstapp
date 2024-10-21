@@ -29,8 +29,9 @@ class ViewController: UIViewController {
         
         if let numberA = Double(a), let numberB = Double(b) {
             let sum = numberA + numberB
-            
-            label.text = String(sum)
+            let roundedsum = round(sum * 100000) / 100000
+            label.text = String(roundedsum)
+
         } else {
             label.text = "введите два числа"
         }
@@ -47,8 +48,8 @@ class ViewController: UIViewController {
         }
         
         let sum = numberA - numberB
-        
-        label.text = String(sum)
+        let roundedsum = round(sum * 100000) / 100000
+        label.text = String(roundedsum)
         
     }
     @IBAction func umnojit(_ sender: Any) {
@@ -62,8 +63,8 @@ class ViewController: UIViewController {
         }
         
         let sum = numberA * numberB
-        
-        label.text = String(sum)
+        let roundedsum = round(sum * 100000) / 100000
+        label.text = String(roundedsum)
         
     }
     
@@ -78,8 +79,8 @@ class ViewController: UIViewController {
         }
         
         let sum = numberA / numberB
-        
-        label.text = String(sum)
+        let roundedsum = round(sum * 100000) / 100000
+        label.text = String(roundedsum)
         
     }
     
