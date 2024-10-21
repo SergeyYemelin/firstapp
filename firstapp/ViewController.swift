@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+// привет Егор
 class ViewController: UIViewController {
     
     @IBOutlet weak var label: UILabel!
